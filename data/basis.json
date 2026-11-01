@@ -1,0 +1,1658 @@
+{
+ "basis": {
+  "scenario_tag": "135.120.100",
+  "campaign_idx": 1,
+  "glass_tpd_target": 5.0,
+  "mf_flow_gpm_resolved": 2.3532759866623922,
+  "runtime_d": 233.05607682758537,
+  "glass_t": 1165.2803841381294,
+  "campaign_glass_t": 5.0000000000008695,
+  "canisters": 376.2610216784402,
+  "effluent_t": 2804.07061634228,
+  "melter_power_kW": null
+ },
+ "campaign_totals": {
+  "canisters": 376.2610216784402,
+  "captured_total_kg": 3.4379863068002643,
+  "carbon_bed_loading_kg": 3.4234112868195337,
+  "effluent_gal": 740757.4387826629,
+  "effluent_kg": 2804070.61634228,
+  "glass_kg": 1165280.3841381294,
+  "hepa_loading_kg": 0.013271418501313824,
+  "mordenite_loading_kg": 0.0013036014794170813,
+  "vessel_transfers": 124
+ },
+ "streams": {
+  "melter_offgas": {
+   "T_F": 700.0,
+   "T_K": 644.2611111111111,
+   "P_kPa": 100.0795555,
+   "mol_s_total": 11.706826611014048,
+   "g_s_total": 261.85337124707917,
+   "species": [
+    {
+     "species": "H2O",
+     "phase": "g",
+     "mol_s": 7.244900048227874,
+     "mol_pct": 61.88611388001346,
+     "g_s": 130.51687436882514
+    },
+    {
+     "species": "N2",
+     "phase": "g",
+     "mol_s": 3.147759238887615,
+     "mol_pct": 26.88823661167179,
+     "g_s": 88.18132731819765
+    },
+    {
+     "species": "O2",
+     "phase": "g",
+     "mol_s": 0.8645230403424129,
+     "mol_pct": 7.384777011466541,
+     "g_s": 27.66300824487653
+    },
+    {
+     "species": "NO",
+     "phase": "g",
+     "mol_s": 0.1590403061373385,
+     "mol_pct": 1.358526195200583,
+     "g_s": 4.772163425956979
+    },
+    {
+     "species": "CO",
+     "phase": "g",
+     "mol_s": 0.13647100981701218,
+     "mol_pct": 1.1657387125612433,
+     "g_s": 3.8225529849745112
+    },
+    {
+     "species": "CO2",
+     "phase": "g",
+     "mol_s": 0.07983279111986659,
+     "mol_pct": 0.6819336595005011,
+     "g_s": 3.5133613043942087
+    },
+    {
+     "species": "NO2",
+     "phase": "g",
+     "mol_s": 0.04566620858827529,
+     "mol_pct": 0.39008187364209773,
+     "g_s": 2.100919592312193
+    },
+    {
+     "species": "CH3CN",
+     "phase": "g",
+     "mol_s": 0.013647100981701217,
+     "mol_pct": 0.11657387125612433,
+     "g_s": 0.5602407895007984
+    },
+    {
+     "species": "HCl",
+     "phase": "g",
+     "mol_s": 0.0078122823826566705,
+     "mol_pct": 0.06673270769472829,
+     "g_s": 0.28484362795404483
+    },
+    {
+     "species": "SO2",
+     "phase": "g",
+     "mol_s": 0.0019897610032875305,
+     "mol_pct": 0.016996587285366627,
+     "g_s": 0.12747204891461236
+    },
+    {
+     "species": "SiO2",
+     "phase": "cr",
+     "mol_s": 0.0015634184559467465,
+     "mol_pct": 0.013354758790702912,
+     "g_s": 0.09393643450710433
+    },
+    {
+     "species": "Na2O",
+     "phase": "cr",
+     "mol_s": 0.0012133407927896577,
+     "mol_pct": 0.01036438680699447,
+     "g_s": 0.0752016489963102
+    },
+    {
+     "species": "Al2O3",
+     "phase": "cr",
+     "mol_s": 0.0006373888731622384,
+     "mol_pct": 0.00544459138535945,
+     "g_s": 0.06498880689649499
+    },
+    {
+     "species": "B2O3",
+     "phase": "cr",
+     "mol_s": 0.0006906476729934144,
+     "mol_pct": 0.005899529359592953,
+     "g_s": 0.048082890993801516
+    },
+    {
+     "species": "HF",
+     "phase": "g",
+     "mol_s": 0.0009747776388725753,
+     "mol_pct": 0.008326574495905513,
+     "g_s": 0.01950140144328474
+    },
+    {
+     "species": "CaO",
+     "phase": "cr",
+     "mol_s": 6.661062091157734e-05,
+     "mol_pct": 0.0005689895573315193,
+     "g_s": 0.003735323788858522
+    },
+    {
+     "species": "Fe2O3",
+     "phase": "cr",
+     "mol_s": 6.889921735745426e-06,
+     "mol_pct": 5.885388042958825e-05,
+     "g_s": 0.00110023093221598
+    },
+    {
+     "species": "K2O",
+     "phase": "cr",
+     "mol_s": 9.116719622161447e-06,
+     "mol_pct": 7.787524258353865e-05,
+     "g_s": 0.0008587585215291197
+    },
+    {
+     "species": "Cr2O3",
+     "phase": "cr",
+     "mol_s": 5.264025478126419e-06,
+     "mol_pct": 4.496543472484597e-05,
+     "g_s": 0.0008000792324204344
+    },
+    {
+     "species": "P2O5",
+     "phase": "cr",
+     "mol_s": 4.759283171104536e-06,
+     "mol_pct": 4.0653913560374205e-05,
+     "g_s": 0.0006755564497224332
+    },
+    {
+     "species": "ThO2",
+     "phase": "cr",
+     "mol_s": 8.149023333594305e-07,
+     "mol_pct": 6.960915715559945e-06,
+     "g_s": 0.00021516436739322392
+    },
+    {
+     "species": "UO3",
+     "phase": "cr",
+     "mol_s": 7.114962106482236e-07,
+     "mol_pct": 6.077618079512956e-06,
+     "g_s": 0.00020350854963550075
+    },
+    {
+     "species": "NiO",
+     "phase": "cr",
+     "mol_s": 2.648213145778905e-06,
+     "mol_pct": 2.2621101633874086e-05,
+     "g_s": 0.00019780298449766375
+    },
+    {
+     "species": "Hg",
+     "phase": "g",
+     "mol_s": 8.484185152513264e-07,
+     "mol_pct": 7.2472117632041725e-06,
+     "g_s": 0.00017018426997426355
+    },
+    {
+     "species": "Tc2O7",
+     "phase": "g",
+     "mol_s": 4.119374371155426e-07,
+     "mol_pct": 3.518779689860466e-06,
+     "g_s": 0.00013503721126084602
+    },
+    {
+     "species": "ZrO2",
+     "phase": "cr",
+     "mol_s": 9.643245041294704e-07,
+     "mol_pct": 8.237283562585714e-06,
+     "g_s": 0.00011882310107432921
+    },
+    {
+     "species": "MnO",
+     "phase": "cr",
+     "mol_s": 1.3159808984600572e-06,
+     "mol_pct": 1.1241141106693702e-05,
+     "g_s": 9.335173699406108e-05
+    },
+    {
+     "species": "PbO",
+     "phase": "cr",
+     "mol_s": 3.396899392813804e-07,
+     "mol_pct": 2.9016397916220304e-06,
+     "g_s": 7.58187944476041e-05
+    },
+    {
+     "species": "SeO2",
+     "phase": "g",
+     "mol_s": 6.830703775146181e-07,
+     "mol_pct": 5.834803915793628e-06,
+     "g_s": 7.579280601864451e-05
+    },
+    {
+     "species": "Bi2O3",
+     "phase": "cr",
+     "mol_s": 1.277114936389931e-07,
+     "mol_pct": 1.090914710557336e-06,
+     "g_s": 5.950819215303795e-05
+    },
+    {
+     "species": "MgO",
+     "phase": "cr",
+     "mol_s": 1.1359387677058043e-06,
+     "mol_pct": 9.703216810583728e-06,
+     "g_s": 4.578287609361474e-05
+    },
+    {
+     "species": "Nd2O3",
+     "phase": "cr",
+     "mol_s": 1.0314491501131526e-07,
+     "mol_pct": 8.810663934688686e-07,
+     "g_s": 3.470620100300736e-05
+    },
+    {
+     "species": "As2O3",
+     "phase": "cr",
+     "mol_s": 1.6971711830959177e-07,
+     "mol_pct": 1.4497277866054501e-06,
+     "g_s": 3.357683468636964e-05
+    },
+    {
+     "species": "MoO3",
+     "phase": "cr",
+     "mol_s": 2.3091291505989138e-07,
+     "mol_pct": 1.9724637831625805e-06,
+     "g_s": 3.323714316789064e-05
+    },
+    {
+     "species": "CeO2",
+     "phase": "cr",
+     "mol_s": 1.6571220980610684e-07,
+     "mol_pct": 1.4155177599555548e-06,
+     "g_s": 2.852072842972905e-05
+    },
+    {
+     "species": "CsOH",
+     "phase": "g",
+     "mol_s": 1.8147504894424334e-07,
+     "mol_pct": 1.5501643184285952e-06,
+     "g_s": 2.7205469012378357e-05
+    },
+    {
+     "species": "ZnO",
+     "phase": "cr",
+     "mol_s": 2.4751045549270766e-07,
+     "mol_pct": 2.1142403805643132e-06,
+     "g_s": 2.014215335754106e-05
+    },
+    {
+     "species": "Li2O",
+     "phase": "cr",
+     "mol_s": 5.996343524061602e-07,
+     "mol_pct": 5.122091343199792e-06,
+     "g_s": 1.791767408424847e-05
+    },
+    {
+     "species": "WO3",
+     "phase": "cr",
+     "mol_s": 7.536532614686197e-08,
+     "mol_pct": 6.437724641446091e-07,
+     "g_s": 1.747269721388848e-05
+    },
+    {
+     "species": "V2O5",
+     "phase": "cr",
+     "mol_s": 8.851439332901108e-08,
+     "mol_pct": 7.560921184715825e-07,
+     "g_s": 1.6098997858680533e-05
+    },
+    {
+     "species": "Tl2O",
+     "phase": "cr",
+     "mol_s": 3.132203672119521e-08,
+     "mol_pct": 2.675536057886663e-07,
+     "g_s": 1.3304348317694878e-05
+    },
+    {
+     "species": "Sb2O3",
+     "phase": "cr",
+     "mol_s": 4.450120210446852e-08,
+     "mol_pct": 3.801303596877465e-07,
+     "g_s": 1.2972901435090454e-05
+    },
+    {
+     "species": "BaO",
+     "phase": "cr",
+     "mol_s": 7.47427193157024e-08,
+     "mol_pct": 6.384541413245393e-07,
+     "g_s": 1.1460002181799385e-05
+    },
+    {
+     "species": "I2",
+     "phase": "g",
+     "mol_s": 3.829917540664944e-08,
+     "mol_pct": 3.271524955415049e-07,
+     "g_s": 9.720675410786287e-06
+    },
+    {
+     "species": "CoO",
+     "phase": "cr",
+     "mol_s": 1.1586280861433428e-07,
+     "mol_pct": 9.89702952509162e-07,
+     "g_s": 8.681947837897913e-06
+    },
+    {
+     "species": "CdO",
+     "phase": "cr",
+     "mol_s": 6.18605286028338e-08,
+     "mol_pct": 5.28414152342822e-07,
+     "g_s": 7.943757920004298e-06
+    },
+    {
+     "species": "Ag2O",
+     "phase": "cr",
+     "mol_s": 3.362001904272083e-08,
+     "mol_pct": 2.8718302713299225e-07,
+     "g_s": 7.791103212960125e-06
+    },
+    {
+     "species": "CuO",
+     "phase": "cr",
+     "mol_s": 6.725560398091159e-08,
+     "mol_pct": 5.74499018526814e-07,
+     "g_s": 5.349847018661613e-06
+    },
+    {
+     "species": "Y2O3",
+     "phase": "cr",
+     "mol_s": 2.2754580799317483e-08,
+     "mol_pct": 1.9437018720264856e-07,
+     "g_s": 5.1382118902938805e-06
+    },
+    {
+     "species": "La2O3",
+     "phase": "cr",
+     "mol_s": 1.54751785793877e-08,
+     "mol_pct": 1.3218935492585413e-07,
+     "g_s": 5.0419524577717275e-06
+    },
+    {
+     "species": "Sm2O3",
+     "phase": "cr",
+     "mol_s": 1.1471661718395372e-08,
+     "mol_pct": 9.799121572025823e-08,
+     "g_s": 4.000397874438834e-06
+    },
+    {
+     "species": "SrO",
+     "phase": "cr",
+     "mol_s": 3.2747711989256026e-08,
+     "mol_pct": 2.797317588905454e-07,
+     "g_s": 3.3933179163267095e-06
+    },
+    {
+     "species": "TiO2",
+     "phase": "cr",
+     "mol_s": 3.768785541424222e-08,
+     "mol_pct": 3.219305851748469e-07,
+     "g_s": 3.0099782605138694e-06
+    },
+    {
+     "species": "BeO",
+     "phase": "cr",
+     "mol_s": 1.066132328457698e-07,
+     "mol_pct": 9.10692849464992e-07,
+     "g_s": 2.6663969534727027e-06
+    },
+    {
+     "species": "RuO2",
+     "phase": "cr",
+     "mol_s": 1.8722500617270583e-08,
+     "mol_pct": 1.599280594081408e-07,
+     "g_s": 2.5258151132747395e-06
+    },
+    {
+     "species": "LiBO2",
+     "phase": "g",
+     "mol_s": 2.3987772873533762e-08,
+     "mol_pct": 2.0490414414240597e-07,
+     "g_s": 1.1934156882311782e-06
+    },
+    {
+     "species": "Cs2O",
+     "phase": "cr",
+     "mol_s": 4.083188601245475e-09,
+     "mol_pct": 3.4878697164643396e-08,
+     "g_s": 1.1506833797169873e-06
+    },
+    {
+     "species": "PuO2",
+     "phase": "cr",
+     "mol_s": 4.093802579330794e-09,
+     "mol_pct": 3.4969362025736775e-08,
+     "g_s": 1.1260536188784661e-06
+    },
+    {
+     "species": "Np2O5",
+     "phase": "cr",
+     "mol_s": 3.928607127779073e-10,
+     "mol_pct": 3.355825842746275e-09,
+     "g_s": 2.1332336703840367e-07
+    },
+    {
+     "species": "SnO2",
+     "phase": "cr",
+     "mol_s": 2.782241998627777e-10,
+     "mol_pct": 2.3765979381723996e-09,
+     "g_s": 4.1930890937119366e-08
+    },
+    {
+     "species": "Am2O3",
+     "phase": "cr",
+     "mol_s": 4.2286103885330113e-11,
+     "mol_pct": 3.6120893637859456e-10,
+     "g_s": 2.258585380723252e-08
+    },
+    {
+     "species": "HgO",
+     "phase": "cr",
+     "mol_s": 3.535077146880523e-11,
+     "mol_pct": 3.019671568001735e-10,
+     "g_s": 7.656623592428526e-09
+    },
+    {
+     "species": "Pa2O5",
+     "phase": "cr",
+     "mol_s": 4.891563926220026e-13,
+     "mol_pct": 4.178385901451664e-12,
+     "g_s": 2.6515700574860894e-10
+    },
+    {
+     "species": "Nb2O5",
+     "phase": "cr",
+     "mol_s": 1.1463375370677417e-13,
+     "mol_pct": 9.79204335348438e-13,
+     "g_s": 3.047079807279764e-11
+    },
+    {
+     "species": "Eu2O3",
+     "phase": "cr",
+     "mol_s": 5.107605197519564e-14,
+     "mol_pct": 4.362928885197815e-13,
+     "g_s": 1.7974990667422696e-11
+    },
+    {
+     "species": "Cm2O3",
+     "phase": "cr",
+     "mol_s": 9.761533981046677e-15,
+     "mol_pct": 8.338326265004048e-14,
+     "g_s": 5.2922156478244566e-12
+    },
+    {
+     "species": "Ac2O3",
+     "phase": "cr",
+     "mol_s": 4.802349873323533e-16,
+     "mol_pct": 4.1021790386861736e-15,
+     "g_s": 2.4107796364084136e-13
+    },
+    {
+     "species": "RaO",
+     "phase": "cr",
+     "mol_s": 3.707622992790339e-16,
+     "mol_pct": 3.167060652715334e-15,
+     "g_s": 8.97244764255262e-14
+    }
+   ]
+  },
+  "stack": {
+   "T_F": 414.88094394338464,
+   "T_K": 485.86163552410255,
+   "P_kPa": 102.0,
+   "mol_s_total": 11.208093162833986,
+   "g_s_total": 315.93086476803427,
+   "species": [
+    {
+     "species": "N2",
+     "phase": "g",
+     "mol_s": 7.976731306193251,
+     "mol_pct": 71.16938796194232,
+     "g_s": 223.46015081169773
+    },
+    {
+     "species": "O2",
+     "phase": "g",
+     "mol_s": 2.000279413200194,
+     "mol_pct": 17.846741494200963,
+     "g_s": 64.0049406635798
+    },
+    {
+     "species": "H2O",
+     "phase": "g",
+     "mol_s": 0.9825186050983852,
+     "mol_pct": 8.766153089772798,
+     "g_s": 17.70007267084741
+    },
+    {
+     "species": "CO2",
+     "phase": "g",
+     "mol_s": 0.23540974231126044,
+     "mol_pct": 2.100354974670256,
+     "g_s": 10.36014734937626
+    },
+    {
+     "species": "CO",
+     "phase": "g",
+     "mol_s": 0.006823550490850622,
+     "mol_pct": 0.06088056542461211,
+     "g_s": 0.1911276492487259
+    },
+    {
+     "species": "NO",
+     "phase": "g",
+     "mol_s": 0.003976007653433464,
+     "mol_pct": 0.03547443437227928,
+     "g_s": 0.11930408564892453
+    },
+    {
+     "species": "NO2",
+     "phase": "g",
+     "mol_s": 0.0011416552147068826,
+     "mol_pct": 0.010185989696201036,
+     "g_s": 0.05252298980780484
+    },
+    {
+     "species": "CH3CN",
+     "phase": "g",
+     "mol_s": 0.0006823550490850615,
+     "mol_pct": 0.006088056542461205,
+     "g_s": 0.02801203947503994
+    },
+    {
+     "species": "HCl",
+     "phase": "g",
+     "mol_s": 0.00017360627517014823,
+     "mol_pct": 0.0015489367606777778,
+     "g_s": 0.006329858398978774
+    },
+    {
+     "species": "NH3",
+     "phase": "g",
+     "mol_s": 0.00028020232907084974,
+     "mol_pct": 0.002500000000000001,
+     "g_s": 0.004772125866405642
+    },
+    {
+     "species": "SO2",
+     "phase": "g",
+     "mol_s": 4.421691118416734e-05,
+     "mol_pct": 0.0003945087763080925,
+     "g_s": 0.0028327121981024965
+    },
+    {
+     "species": "HF",
+     "phase": "g",
+     "mol_s": 3.2492587962419176e-05,
+     "mol_pct": 0.0002899029075718654,
+     "g_s": 0.0006500467147761581
+    },
+    {
+     "species": "Tc2O7",
+     "phase": "g",
+     "mol_s": 2.7462495807702837e-09,
+     "mol_pct": 2.450238002907436e-08,
+     "g_s": 9.002480750723067e-07
+    },
+    {
+     "species": "SeO2",
+     "phase": "g",
+     "mol_s": 4.553802516764121e-09,
+     "mol_pct": 4.0629591944011674e-08,
+     "g_s": 5.052853734576301e-07
+    },
+    {
+     "species": "CsOH",
+     "phase": "g",
+     "mol_s": 1.2098336596282887e-09,
+     "mol_pct": 1.0794286254151552e-08,
+     "g_s": 1.8136979341585568e-07
+    },
+    {
+     "species": "Hg",
+     "phase": "g",
+     "mol_s": 8.484185152513264e-10,
+     "mol_pct": 7.56969542388067e-09,
+     "g_s": 1.7018426997426355e-07
+    },
+    {
+     "species": "LiBO2",
+     "phase": "g",
+     "mol_s": 1.5991848582355841e-10,
+     "mol_pct": 1.4268126031807782e-09,
+     "g_s": 7.956104588207854e-09
+    },
+    {
+     "species": "I2",
+     "phase": "g",
+     "mol_s": 2.553278360443296e-13,
+     "mol_pct": 2.278066682127484e-12,
+     "g_s": 6.480450273857525e-11
+    },
+    {
+     "species": "SiO2",
+     "phase": "cr",
+     "mol_s": 3.5451665667726683e-13,
+     "mol_pct": 3.1630416657566993e-12,
+     "g_s": 2.1300778799796902e-11
+    },
+    {
+     "species": "Na2O",
+     "phase": "cr",
+     "mol_s": 2.7513396661897e-13,
+     "mol_pct": 2.454779440371835e-12,
+     "g_s": 1.7052528117077145e-11
+    },
+    {
+     "species": "Al2O3",
+     "phase": "cr",
+     "mol_s": 1.445326242998273e-13,
+     "mol_pct": 1.2895380347042186e-12,
+     "g_s": 1.473669090623469e-11
+    },
+    {
+     "species": "B2O3",
+     "phase": "cr",
+     "mol_s": 1.566094496583706e-13,
+     "mol_pct": 1.397288971309475e-12,
+     "g_s": 1.0903149885215762e-11
+    },
+    {
+     "species": "CaO",
+     "phase": "cr",
+     "mol_s": 1.5104449186298717e-14,
+     "mol_pct": 1.3476377263159304e-13,
+     "g_s": 8.470121970200732e-13
+    },
+    {
+     "species": "Fe2O3",
+     "phase": "cr",
+     "mol_s": 1.562340529647489e-15,
+     "mol_pct": 1.393939635359391e-14,
+     "g_s": 2.494854721578186e-13
+    },
+    {
+     "species": "K2O",
+     "phase": "cr",
+     "mol_s": 2.0672833610343415e-15,
+     "mol_pct": 1.8444559043187195e-14,
+     "g_s": 1.9472982347599083e-13
+    },
+    {
+     "species": "Cr2O3",
+     "phase": "cr",
+     "mol_s": 1.1936565710037231e-15,
+     "mol_pct": 1.0649952259157569e-14,
+     "g_s": 1.814238622268559e-13
+    },
+    {
+     "species": "P2O5",
+     "phase": "cr",
+     "mol_s": 1.0792025331302801e-15,
+     "mol_pct": 9.62877911033889e-15,
+     "g_s": 1.531874035651776e-13
+    },
+    {
+     "species": "ThO2",
+     "phase": "cr",
+     "mol_s": 1.8478510960531305e-16,
+     "mol_pct": 1.648675710673606e-15,
+     "g_s": 4.8790105984858035e-14
+    },
+    {
+     "species": "UO3",
+     "phase": "cr",
+     "mol_s": 1.6133700921728427e-16,
+     "mol_pct": 1.4394688451758899e-15,
+     "g_s": 4.6147063409410596e-14
+    },
+    {
+     "species": "NiO",
+     "phase": "cr",
+     "mol_s": 6.005018471153979e-16,
+     "mol_pct": 5.357752102798903e-15,
+     "g_s": 4.4853284466590414e-14
+    },
+    {
+     "species": "ZrO2",
+     "phase": "cr",
+     "mol_s": 2.1866768801121777e-16,
+     "mol_pct": 1.9509802857128218e-15,
+     "g_s": 2.6944013849054242e-14
+    },
+    {
+     "species": "MnO",
+     "phase": "cr",
+     "mol_s": 2.9840836699774543e-16,
+     "mol_pct": 2.6624365328017343e-15,
+     "g_s": 2.116819432971907e-14
+    },
+    {
+     "species": "PbO",
+     "phase": "cr",
+     "mol_s": 7.702719711595928e-17,
+     "mol_pct": 6.872462246422193e-16,
+     "g_s": 1.7192470396282112e-14
+    },
+    {
+     "species": "Bi2O3",
+     "phase": "cr",
+     "mol_s": 2.895952236711861e-17,
+     "mol_pct": 2.583804572855294e-16,
+     "g_s": 1.3493921123137856e-14
+    },
+    {
+     "species": "MgO",
+     "phase": "cr",
+     "mol_s": 2.575824870081189e-16,
+     "mol_pct": 2.2981829582061457e-15,
+     "g_s": 1.0381604556375224e-14
+    },
+    {
+     "species": "Nd2O3",
+     "phase": "cr",
+     "mol_s": 2.338886961707829e-17,
+     "mol_pct": 2.0867840119883846e-16,
+     "g_s": 7.869886848754503e-15
+    },
+    {
+     "species": "As2O3",
+     "phase": "cr",
+     "mol_s": 3.848460732643804e-17,
+     "mol_pct": 3.4336444895062903e-16,
+     "g_s": 7.613794713462503e-15
+    },
+    {
+     "species": "MoO3",
+     "phase": "cr",
+     "mol_s": 5.2361205229000306e-17,
+     "mol_pct": 4.671731798467732e-16,
+     "g_s": 7.536767158251845e-15
+    },
+    {
+     "species": "CeO2",
+     "phase": "cr",
+     "mol_s": 3.757646480864101e-17,
+     "mol_pct": 3.352618885542859e-16,
+     "g_s": 6.467285358215205e-15
+    },
+    {
+     "species": "ZnO",
+     "phase": "cr",
+     "mol_s": 5.612481983961625e-17,
+     "mol_pct": 5.00752617097492e-16,
+     "g_s": 4.5673817137281316e-15
+    },
+    {
+     "species": "Li2O",
+     "phase": "cr",
+     "mol_s": 1.3597150848212248e-16,
+     "mol_pct": 1.213154695510595e-15,
+     "g_s": 4.062964644954302e-15
+    },
+    {
+     "species": "WO3",
+     "phase": "cr",
+     "mol_s": 1.7089643117202258e-17,
+     "mol_pct": 1.524759195781088e-16,
+     "g_s": 3.962062860292172e-15
+    },
+    {
+     "species": "V2O5",
+     "phase": "cr",
+     "mol_s": 2.0071291004310902e-17,
+     "mol_pct": 1.7907855254868207e-16,
+     "g_s": 3.650566407864067e-15
+    },
+    {
+     "species": "Tl2O",
+     "phase": "cr",
+     "mol_s": 7.102502657867394e-18,
+     "mol_pct": 6.336941132341118e-17,
+     "g_s": 3.0168590289557545e-15
+    },
+    {
+     "species": "Sb2O3",
+     "phase": "cr",
+     "mol_s": 1.0090975533893088e-17,
+     "mol_pct": 9.003293769322638e-17,
+     "g_s": 2.9417010056894454e-15
+    },
+    {
+     "species": "BaO",
+     "phase": "cr",
+     "mol_s": 1.694846242986449e-17,
+     "mol_pct": 1.5121628794151674e-16,
+     "g_s": 2.5986399505214023e-15
+    },
+    {
+     "species": "CoO",
+     "phase": "cr",
+     "mol_s": 2.6272745717536122e-17,
+     "mol_pct": 2.344087021390623e-16,
+     "g_s": 1.9686956548521345e-15
+    },
+    {
+     "species": "CdO",
+     "phase": "cr",
+     "mol_s": 1.4027330748941903e-17,
+     "mol_pct": 1.2515358808273029e-16,
+     "g_s": 1.8013056507946256e-15
+    },
+    {
+     "species": "Ag2O",
+     "phase": "cr",
+     "mol_s": 7.623587084517196e-18,
+     "mol_pct": 6.801859133181543e-17,
+     "g_s": 1.7666900709660147e-15
+    },
+    {
+     "species": "CuO",
+     "phase": "cr",
+     "mol_s": 1.5250703850546847e-17,
+     "mol_pct": 1.3606867492070952e-16,
+     "g_s": 1.213117237791749e-15
+    },
+    {
+     "species": "Y2O3",
+     "phase": "cr",
+     "mol_s": 5.159768888734123e-18,
+     "mol_pct": 4.603609921662595e-17,
+     "g_s": 1.1651274127650525e-15
+    },
+    {
+     "species": "La2O3",
+     "phase": "cr",
+     "mol_s": 3.509110788976803e-18,
+     "mol_pct": 3.1308722527512596e-17,
+     "g_s": 1.1432998770457432e-15
+    },
+    {
+     "species": "Sm2O3",
+     "phase": "cr",
+     "mol_s": 2.601283836370832e-18,
+     "mol_pct": 2.320897764301856e-17,
+     "g_s": 9.071196994192367e-16
+    },
+    {
+     "species": "SrO",
+     "phase": "cr",
+     "mol_s": 7.425785031577329e-18,
+     "mol_pct": 6.625377683512854e-17,
+     "g_s": 7.694598449720429e-16
+    },
+    {
+     "species": "TiO2",
+     "phase": "cr",
+     "mol_s": 8.545998960145628e-18,
+     "mol_pct": 7.624846471194711e-17,
+     "g_s": 6.825347529509908e-16
+    },
+    {
+     "species": "BeO",
+     "phase": "cr",
+     "mol_s": 2.4175336246206307e-17,
+     "mol_pct": 2.1569535419612385e-16,
+     "g_s": 6.0462515951761975e-16
+    },
+    {
+     "species": "RuO2",
+     "phase": "cr",
+     "mol_s": 4.245464992578363e-18,
+     "mol_pct": 3.7878566236907415e-17,
+     "g_s": 5.727471912187618e-16
+    }
+   ]
+  }
+ },
+ "stage_states": {
+  "melter_offgas": {
+   "T_F": 700.0,
+   "P_kPa": 100.0795555,
+   "flow_g_s": 261.85337124707917,
+   "mol_s": 11.706826611014048
+  },
+  "sbs_out": {
+   "T_F": 99.99999999999999,
+   "P_kPa": 91.36144399999999,
+   "flow_g_s": 133.220698015012,
+   "mol_s": 4.679479231712408
+  },
+  "wesp_out": {
+   "T_F": 99.99999999999999,
+   "P_kPa": 90.11599949999999,
+   "flow_g_s": 314.1471426390783,
+   "mol_s": 11.127968507149399
+  },
+  "heme_out": {
+   "T_F": 99.99999999999999,
+   "P_kPa": 87.62511049999999,
+   "flow_g_s": 314.1471103405215,
+   "mol_s": 11.127968039609542
+  },
+  "heater_out": {
+   "T_F": 136.0,
+   "P_kPa": 87.62511049999999,
+   "flow_g_s": 314.1471103405215,
+   "mol_s": 11.127968039609542
+  },
+  "hepa_out": {
+   "T_F": 136.0,
+   "P_kPa": 87.37602159999999,
+   "flow_g_s": 314.1471096814339,
+   "mol_s": 11.127968030068867
+  },
+  "fan1_out": {
+   "T_F": 159.36282607456977,
+   "P_kPa": 96.0941331,
+   "flow_g_s": 314.1471096814339,
+   "mol_s": 11.127968030068867
+  },
+  "carbon_bed_out": {
+   "T_F": 159.36282607456977,
+   "P_kPa": 94.10142189999999,
+   "flow_g_s": 314.14693966734814,
+   "mol_s": 11.127967182498772
+  },
+  "mordenite_out": {
+   "T_F": 159.36282607456977,
+   "P_kPa": 93.10506629999999,
+   "flow_g_s": 314.1469396026085,
+   "mol_s": 11.1279671822437
+  },
+  "hx_cold_out": {
+   "T_F": 626.3045102447959,
+   "P_kPa": 92.10871069999999,
+   "flow_g_s": 314.1469396026085,
+   "mol_s": 11.1279671822437
+  },
+  "sco_out": {
+   "T_F": 650.0000000000001,
+   "P_kPa": 91.11235509999999,
+   "flow_g_s": 314.14695256735445,
+   "mol_s": 11.066384639063772
+  },
+  "scr_out": {
+   "T_F": 821.1012070562887,
+   "P_kPa": 90.11599949999999,
+   "flow_g_s": 315.93086476803427,
+   "mol_s": 11.208093162833986
+  },
+  "hx_hot_out": {
+   "T_F": 368.92554016672256,
+   "P_kPa": 89.11964389999999,
+   "flow_g_s": 315.93086476803427,
+   "mol_s": 11.208093162833986
+  },
+  "stack": {
+   "T_F": 414.88094394338464,
+   "P_kPa": 102.0,
+   "flow_g_s": 315.93086476803427,
+   "mol_s": 11.208093162833986
+  }
+ },
+ "df_tables": {
+  "partitions.yaml": {
+   "schema_version": "1.0",
+   "last_updated": "2026-10-08",
+   "unit_reference_temperature_C": 25,
+   "defaults": {
+    "glass_oxide": {
+     "DF": "inf",
+     "gas_form": null,
+     "reacts": false,
+     "notes": "assumed involatile"
+    },
+    "isotope": {
+     "DF": "inf",
+     "gas_form": null,
+     "reacts": false,
+     "notes": "isotope rides on host element"
+    },
+    "anion_condensed": {
+     "DF": "inf",
+     "gas_form": null,
+     "reacts": false,
+     "notes": "default until SME specifies"
+    }
+   },
+   "gas_diluents": {
+    "N2": {
+     "DF": 1,
+     "gas_form": "N2",
+     "reacts": false,
+     "notes": ""
+    },
+    "O2": {
+     "DF": 1,
+     "gas_form": "O2",
+     "reacts": false,
+     "notes": ""
+    },
+    "Air": {
+     "DF": 1,
+     "gas_form": "N2",
+     "reacts": false,
+     "notes": ""
+    }
+   },
+   "water_family": {
+    "H2O": {
+     "DF": 1,
+     "gas_form": "H2O",
+     "reacts": false,
+     "notes": "essentially all to offgas"
+    },
+    "H2O-bound": {
+     "DF": 1,
+     "gas_form": "H2O",
+     "reacts": true,
+     "notes": "dehydration enthalpy"
+    },
+    "OH-": {
+     "DF": 1,
+     "gas_form": "H2O",
+     "reacts": true,
+     "notes": "2 OH- + (heat) \u2192 H2O + O\u00b2\u207b(which becomes retained oxide)"
+    },
+    "OH-bound": {
+     "DF": 1,
+     "gas_form": "H2O",
+     "reacts": true,
+     "notes": ""
+    },
+    "H-3": {
+     "DF": 1,
+     "gas_form": "H2O",
+     "reacts": false,
+     "notes": "tritium swaps into water vapor"
+    },
+    "C12H22O11": {
+     "DF": 1,
+     "gas_form": null,
+     "reacts": true,
+     "notes": "sucrose reductant (SME 2026-10-13): partial combustion in the melt handled by the partition engine's sucrose block \u2014 products CO + CH3CN; DF row keeps the generic N/C synthesis from double-processing the sugar"
+    }
+   },
+   "halogens": {
+    "F-": {
+     "DF": 2,
+     "gas_form": "HF",
+     "reacts": true,
+     "notes": "F leaves as HF; HF enthalpy of formation -273 kJ/mol"
+    },
+    "Cl-": {
+     "DF": 1.0,
+     "gas_form": "HCl",
+     "reacts": true,
+     "notes": "SME 2026-10-09: Cl fully volatilized (DF=1), none retained in glass"
+    },
+    "Br-": {
+     "DF": 3.5,
+     "gas_form": "Br2",
+     "reacts": true,
+     "notes": ""
+    },
+    "I-": {
+     "DF": 2.0,
+     "gas_form": "I2",
+     "reacts": true,
+     "notes": ""
+    },
+    "I-129": {
+     "DF": 2.0,
+     "gas_form": "I2",
+     "reacts": true
+    }
+   },
+   "volatile_oxyanions": {
+    "NO3-": {
+     "DF": 1,
+     "gas_form": "NO2",
+     "reacts": true,
+     "notes": "SME 2026-10-09 (Q4): NO:NO2 = 1.5:1 molar on nitrate-N \u2014 60% NO, 40% NO2 (engine splits in u04_partitions NOX_SPLIT). The sucrose reductant's CH3CN draws its N from this pool first (partition engine step 0), reducing NOx accordingly (SME 2026-10-13)"
+    },
+    "NO2-": {
+     "DF": 1,
+     "gas_form": "NO2",
+     "reacts": true,
+     "notes": "same 1.5:1 NO:NO2 split as nitrate (SME Q4)"
+    },
+    "CO3-2": {
+     "DF": 1,
+     "gas_form": "CO2",
+     "reacts": true,
+     "notes": "Na2CO3 \u2192 Na2O + CO2"
+    },
+    "HCO3-": {
+     "DF": 1,
+     "gas_form": "CO2",
+     "reacts": true,
+     "notes": ""
+    },
+    "C2O4-2": {
+     "DF": 1,
+     "gas_form": "CO2",
+     "reacts": true,
+     "notes": "C2O4\u00b2\u207b \u2192 CO2 + CO"
+    },
+    "SO4-2": {
+     "DF": 1,
+     "gas_form": "SO2",
+     "reacts": true,
+     "notes": "Na2SO4 \u2192 Na2O + SO2 + \u00bdO2"
+    },
+    "PO4-3": {
+     "DF": 10000,
+     "gas_form": "SO2",
+     "reacts": true,
+     "notes": "small P2O5 volatilization"
+    }
+   },
+   "volatiles": {
+    "Hg": {
+     "DF": 1.1,
+     "gas_form": "Hg",
+     "reacts": true,
+     "notes": "HgO \u2192 Hg + \u00bd O2; Hg boils at 357 \u00b0C"
+    },
+    "HgO": {
+     "DF": 1.1,
+     "gas_form": "Hg",
+     "reacts": true,
+     "notes": "same as Hg"
+    },
+    "TOC": {
+     "DF": 1,
+     "gas_form": "CO2",
+     "reacts": true,
+     "notes": "organic carbon combusts in the glass-melt offgas"
+    },
+    "CH3CN": {
+     "DF": 1,
+     "gas_form": "CH3CN",
+     "reacts": true,
+     "notes": "acetonitrile from sucrose partial combustion (SME 2026-10-13); passes to the train, oxidized in the SCO (95%)"
+    },
+    "PCB": {
+     "DF": 1,
+     "gas_form": "CO2",
+     "reacts": true,
+     "notes": "chlorinated organics combust to CO2 + HCl; simplified"
+    },
+    "Tc-99": {
+     "DF": 2.0,
+     "gas_form": "Tc2O7",
+     "reacts": true,
+     "notes": "Tc2O7 bp \u2248 311 \u00b0C; substantial vapor loss"
+    },
+    "Cs-134": {
+     "DF": 10,
+     "gas_form": "CsOH",
+     "reacts": true,
+     "notes": "Cs retained in glass >99%; small hydroxide loss"
+    },
+    "Cs-137": {
+     "DF": 10,
+     "gas_form": "CsOH",
+     "reacts": true,
+     "notes": ""
+    }
+   },
+   "nitrogen_family": {
+    "NH3": {
+     "DF": 1,
+     "gas_form": "NH3",
+     "reacts": false,
+     "notes": "used as SCR reagent \u2014 not normally in feed"
+    }
+   },
+   "glass_formers": {
+    "SiO2": {
+     "DF": "1e5",
+     "gas_form": null,
+     "reacts": false,
+     "notes": "silica stays in glass"
+    },
+    "B2O3": {
+     "DF": "1e3",
+     "gas_form": "HBO2",
+     "reacts": true,
+     "notes": "B2O3 + H2O \u2192 2 HBO2(g)"
+    },
+    "Li2O": {
+     "DF": "1e4",
+     "gas_form": "LiBO2",
+     "reacts": true,
+     "notes": "LiBO2 has some vapor pressure"
+    },
+    "Na2O": {
+     "DF": "1e3",
+     "gas_form": "NaOH",
+     "reacts": true,
+     "notes": "NaOH volatilizes slightly"
+    },
+    "K2O": {
+     "DF": "1e3",
+     "gas_form": "KOH",
+     "reacts": true,
+     "notes": ""
+    },
+    "CaO": {
+     "DF": "1e5",
+     "gas_form": null,
+     "reacts": false,
+     "notes": ""
+    },
+    "MgO": {
+     "DF": "1e5",
+     "gas_form": null,
+     "reacts": false,
+     "notes": ""
+    },
+    "Fe2O3": {
+     "DF": "1e5",
+     "gas_form": null,
+     "reacts": false,
+     "notes": ""
+    },
+    "Al2O3": {
+     "DF": "1e5",
+     "gas_form": null,
+     "reacts": false,
+     "notes": ""
+    },
+    "SiO2_gfc": {}
+   },
+   "trace_oxides": {
+    "ZrO2": {
+     "DF": "1e5"
+    },
+    "TiO2": {
+     "DF": "1e5"
+    },
+    "MnO": {
+     "DF": "1e5"
+    },
+    "NiO": {
+     "DF": "1e5"
+    },
+    "ZnO": {
+     "DF": "1e5"
+    },
+    "Cr2O3": {
+     "DF": "1e5"
+    },
+    "P2O5": {
+     "DF": "1e4"
+    },
+    "UO2": {
+     "DF": "1e5"
+    },
+    "PuO2": {
+     "DF": "1e5"
+    },
+    "ThO2": {
+     "DF": "1e5"
+    },
+    "Bi2O3": {
+     "DF": "1e4"
+    },
+    "PbO": {
+     "DF": "1e4"
+    },
+    "SrO": {
+     "DF": "1e5"
+    },
+    "BaO": {
+     "DF": "1e5"
+    },
+    "Cs2O": {
+     "DF": 10,
+     "gas_form": "CsOH",
+     "notes": "isotopes inherit host element DF (SME Q3b)"
+    },
+    "HgO": {
+     "DF": 1.1,
+     "gas_form": "Hg"
+    },
+    "Y2O3": {
+     "DF": "1e5"
+    },
+    "SnO2": {
+     "DF": "1e5"
+    },
+    "V2O5": {
+     "DF": "1e4"
+    },
+    "MoO3": {
+     "DF": "1e4"
+    },
+    "Ag2O": {
+     "DF": "1e4"
+    },
+    "As2O3": {
+     "DF": "1e3"
+    },
+    "BeO": {
+     "DF": "1e5"
+    },
+    "CeO2": {
+     "DF": "1e5"
+    },
+    "CuO": {
+     "DF": "1e4"
+    },
+    "Nd2O3": {
+     "DF": "1e5"
+    },
+    "WO3": {
+     "DF": "1e4"
+    },
+    "La2O3": {
+     "DF": "1e5"
+    },
+    "CoO": {
+     "DF": "1e5"
+    },
+    "CdO": {
+     "DF": "1e3"
+    },
+    "Sb2O3": {
+     "DF": "1e3"
+    },
+    "Nb2O6": {
+     "DF": "1e5"
+    },
+    "SeO2": {
+     "DF": "1e2"
+    },
+    "Tc2O7_proxy": {
+     "DF": 1.1,
+     "gas_form": "Tc2O7"
+    }
+   },
+   "dh_reactions_kjmol": {
+    "Na2CO3_decomp": 322.0,
+    "CaCO3_decomp": 178.0,
+    "NaNO3_decomp": 254.0,
+    "AlOOH_decomp": -57.0,
+    "CrOOH_decomp": -8.0
+   },
+   "exclude": [
+    "Cold",
+    "Iso-free",
+    "All-Isos",
+    "Iso-total"
+   ],
+   "melter_meta": {
+    "entrainment_fraction": 0.005,
+    "melter_efficiency": 0.5,
+    "notes": "0.5% of glass-forming solids entrained to offgas (SME S1); joule heating efficiency 50% (SME 2026-10-09)"
+   }
+  },
+  "sbs.yaml": {
+   "sbs_meta": {
+    "bath_T_F": 100.0,
+    "dp_inWC": 35.0,
+    "recirc_gpm": 90.0,
+    "condensate_vessel_gal": 6000.0,
+    "saturation": true,
+    "nox_ratio_fixed": true,
+    "flow_scaling_k": 0.0,
+    "design_flow_scfm": 900.0
+   },
+   "capture": {
+    "particulate": {
+     "DF": 90,
+     "liquid_form": "particulate",
+     "notes": "glass dust captured to liquor; SBS DF=90 (S4)"
+    },
+    "HCl": {
+     "DF": 30,
+     "liquid_form": "HCl_aq",
+     "notes": "dissolves as Cl- + H+ (HCl_aq)"
+    },
+    "HF": {
+     "DF": 20,
+     "liquid_form": "HF_aq",
+     "notes": "dissolves as F- + H+ (HF_aq)"
+    },
+    "SO2": {
+     "DF": 30,
+     "liquid_form": "H2SO3",
+     "notes": "dissolves as sulfite H2SO3/SO3-2; no oxidation modeled (S5)"
+    },
+    "NO": {
+     "DF": 2,
+     "liquid_form": "HNO2",
+     "notes": "NO:NO2 ratio fixed at 1.5:1 until SCO (S7)"
+    },
+    "NO2": {
+     "DF": 2,
+     "liquid_form": "HNO3",
+     "notes": "dissolves as nitrate on capture"
+    },
+    "Hg": {
+     "DF": 1,
+     "liquid_form": "Hg",
+     "notes": "elemental vapor passes through (DF=1)"
+    },
+    "semivolatile": {
+     "DF": 3,
+     "species": [
+      "Tc2O7",
+      "CsOH",
+      "I2",
+      "Br2",
+      "SeO2",
+      "LiBO2"
+     ],
+     "liquid_form": "same",
+     "notes": "1/3 of entering mass captured to liquor"
+    }
+   },
+   "melter_entrainment": {
+    "fraction_of_glass_solids": 0.005,
+    "notes": "SME S1 2026-10-09: 0.5% of the solid feed to the melter is entrained to the offgas handling systems as particulate"
+   }
+  },
+  "wesp.yaml": {
+   "wesp_meta": {
+    "T_F": 100.0,
+    "dp_inWC": 5.0,
+    "wash_gpm": 0.3,
+    "flow_scaling_k": 0.0,
+    "design_flow_scfm": 900.0,
+    "wash_water_T_F": 80.0,
+    "wash_recirc": false,
+    "condensate_vessel": "sbs_condensate",
+    "outlet_saturation": true,
+    "no_active_cooling": true
+   },
+   "capture": {
+    "particulate": {
+     "DF": 98,
+     "notes": "DF=98 (SME W2 2026-10-09)"
+    },
+    "HCl": {
+     "DF": 1.5,
+     "liquid_form": "HCl_aq"
+    },
+    "HF": {
+     "DF": 1.5,
+     "liquid_form": "HF_aq"
+    },
+    "SO2": {
+     "DF": 1.5,
+     "liquid_form": "H2SO3"
+    },
+    "NO": {
+     "DF": 1,
+     "liquid_form": "HNO2"
+    },
+    "NO2": {
+     "DF": 1,
+     "liquid_form": "HNO3"
+    },
+    "Hg": {
+     "DF": 1,
+     "liquid_form": "Hg"
+    },
+    "semivolatile": {
+     "DF": 50,
+     "species": [
+      "Tc2O7",
+      "CsOH",
+      "I2",
+      "Br2",
+      "SeO2",
+      "LiBO2"
+     ],
+     "liquid_form": "same"
+    }
+   }
+  },
+  "heme.yaml": {
+   "heme_meta": {
+    "T_F": 100.0,
+    "dp_inWC": 10.0,
+    "flow_scaling_k": 0.0,
+    "design_flow_scfm": 900.0,
+    "wash_gpm": 0.003,
+    "wash_water_T_F": 80.0,
+    "wash_recirc": false,
+    "condensate_vessel": "sbs_condensate"
+   },
+   "capture": {
+    "mist": {
+     "DF": 3,
+     "phases_captured": [
+      "l",
+      "aq"
+     ],
+     "notes": "Demister droplet capture (SME H2); DF=3 placeholder"
+    },
+    "particulate": {
+     "DF": 50,
+     "notes": "SME H2: HEME particulate DF=50"
+    }
+   }
+  },
+  "heater_hepa.yaml": {
+   "heater_meta": {
+    "deltaT_F": 36.0,
+    "dp_inWC": 0.0,
+    "efficiency": 1.0,
+    "notes": "Reheat HEME outlet (100 F, saturated) so the gas is safely above its dew point through the HEPA and downstream beds"
+   },
+   "hepa_meta": {
+    "particulate_DF": 10000,
+    "flow_scaling_k": 0.0,
+    "design_flow_scfm": 900.0,
+    "dp_inWC": 1.0,
+    "capture_phases": [
+     "cr"
+    ],
+    "notes": "Captured mass accumulates on the filter media (loading ledger); media change criterion TBD"
+   },
+   "fan1_meta": {
+    "rise_inWC": 35.0,
+    "efficiency": 0.7,
+    "notes": "SME Q1: fan 1 is a 35 in WC boost, NOT discharge-to-atmosphere. The train downstream remains under vacuum; the final fans (fan 2) raise the exhaust to 102 kPa.  Fan work W = Q_volumetric x dP / eta; all work appears as gas sensible heat (adiabatic steady-flow: W = m*dh)"
+   }
+  },
+  "adsorber_beds.yaml": {
+   "carbon_bed_meta": {
+    "dp_inWC": 8.0,
+    "flow_scaling_k": 0.0,
+    "design_flow_scfm": 900.0,
+    "capture": {
+     "Hg": {
+      "DF": 1000,
+      "notes": "elemental vapor Hg \u2192 adsorbed on activated carbon"
+     }
+    },
+    "notes": "Hg vapor is the only species captured here; gases (NOx, CO2, O2, halogens, semivolatiles) pass through untempered"
+   },
+   "mordenite_meta": {
+    "dp_inWC": 4.0,
+    "flow_scaling_k": 0.0,
+    "design_flow_scfm": 900.0,
+    "capture": {
+     "I2": {
+      "DF": 1000,
+      "notes": "elemental iodine I2 \u2192 chemisorbed AgI"
+     }
+    },
+    "notes": "Only iodine captured; HX pass 1 follows this stage"
+   }
+  },
+  "hx_sco_scr.yaml": {
+   "hx_meta": {
+    "effectiveness": 0.75,
+    "dp_cold_inWC": 4.0,
+    "dp_hot_inWC": 4.0,
+    "notes": "Hot side = SCR outlet gas; cold side = mordenite outlet. Effectiveness solved against outlet of the coupled block."
+   },
+   "heater2_meta": {
+    "dp_inWC": 0.0,
+    "efficiency": 1.0,
+    "notes": "Tops the HX cold-pass outlet up to the 650 \u00b0F SCO inlet"
+   },
+   "sco_meta": {
+    "T_in_F": 650.0,
+    "removal": 0.95,
+    "species": [
+     "CO",
+     "H2",
+     "CH3CN"
+    ],
+    "dp_inWC": 4.0,
+    "o2_excess_fraction": 1.0,
+    "notes": "Reaction enthalpy from component library heats the gas"
+   },
+   "scr_meta": {
+    "removal": 0.95,
+    "nh3_slip_ppmv": 25.0,
+    "dp_inWC": 4.0,
+    "stoich_nh3_per_n": 1.0,
+    "heat_to_gas": true,
+    "env_loss_kW": 10.0,
+    "notes": "SME Q3: heat of reaction goes to the gas stream; the gas is then cooled in the regenerative HX (heat returned to the cold side).  A 10 kW environmental loss is taken from the unit.  NH3 feed set by stoich \u00d7 NOx_in + slip"
+   },
+   "fan2_meta": {
+    "discharge_kPa": 102.0,
+    "efficiency": 0.7,
+    "notes": "SME Q1: fan 1 = 35 in WC rise only; fan 2 (final) lifts to 102 kPa absolute"
+   }
+  },
+  "air_addition.yaml": {
+   "melter_air": {
+    "scfm": 200.0,
+    "T_F": 100.0,
+    "hold_outlet_T_F": 700.0,
+    "notes": "SME 2026-10-10: 200 SCFM at 100 F added at the melter for volumetric flow / heat uptake"
+   },
+   "wesp_air": {
+    "scfm": 300.0,
+    "T_F": 120.0,
+    "notes": "SME 2026-10-10: 300 SCFM heated to 120 F, added at the WESP"
+   }
+  }
+ },
+ "unit_data": {},
+ "energy_MWh_per_unit": {}
+}
